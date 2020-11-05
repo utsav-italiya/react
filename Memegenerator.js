@@ -20,8 +20,7 @@ class MemeGenerator extends Component {
                 const {memes} = response.data
                 this.setState({allMemeImgs: memes})
             })
-    }
-    
+    } 
     handleChange(event) {
         const {name, value} = event.target
         this.setState({
